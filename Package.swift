@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloudXiOSDemoAdapter", 
+    name: "CloudXDemoAdapter", 
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "CloudXiOSDemoAdapter",
-            targets: ["CloudXiOSDemoAdapter"]
+            name: "CloudXDemoAdapter",
+            targets: ["CloudXDemoAdapter"]
         ),
     ],
     dependencies: [
@@ -17,13 +17,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "CloudXiOSDemoAdapter",
-            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/latest/download/CloudXDemoAdapter.xcframework.zip",
+            name: "CloudXDemoAdapter",
+            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/download/1.0.0/CloudXDemoAdapter.xcframework.zip",
             checksum: "226a782f3e17808ff1598b28d346e3a28f44ecb0738daf8f5dbe1fa069f08b0c"
         ),
         .target(
-            name: "CloudXiOSDemoAdapterWrapper",
-            dependencies: ["CloudXCore", "CloudXiOSDemoAdapter"]
+            name: "CloudXDemoAdapterWrapper",
+            dependencies: ["CloudXCore", "CloudXDemoAdapter"]
         )
     ]
 )
