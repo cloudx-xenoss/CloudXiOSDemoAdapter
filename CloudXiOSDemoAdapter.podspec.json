@@ -1,6 +1,6 @@
 {
   "name": "CloudXiOSDemoAdapter",
-  "version": "1.0.0",
+  "version": ">=1.0.0",
   "summary": "Mobile SDK for CloudX iOS Demo Adapter",
   "description": "Mobile SDK for CloudX iOS Demo Adapter",
   "homepage": "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter",
