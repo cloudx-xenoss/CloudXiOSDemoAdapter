@@ -15,7 +15,7 @@
     "ios": "13.0"
   },
   "swift_version": "5.0, 5.1, 5.2",
-  "module_name": "CloudXiOSDemoAdapter",
+  "module_name": "CloudXDemoAdapter",
   "source": {
     "http": "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/latest/download/CloudXDemoAdapter.xcframework.zip",
     "type": "zip",
