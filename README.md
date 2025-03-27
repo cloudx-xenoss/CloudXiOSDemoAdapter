@@ -1,2 +1,2 @@
-# CloudXiOSTestAdapter
-Test adapter for CloudX iOS SDK
+# CloudXiOSDemoAdapter
+Demo adapter for CloudX iOS SDK
