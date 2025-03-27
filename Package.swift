@@ -13,12 +13,12 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/cloudx-xenoss/CloudXCoreiOS.git", from: "1.0.0")
+        .package(url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter.git", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(
             name: "CloudXiOSDemoAdapter",
-            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/latest/download/CloudXiOSDemoAdapter.xcframework.zip",
+            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/latest/download/CloudXDemoAdapter.xcframework.zip",
             checksum: "226a782f3e17808ff1598b28d346e3a28f44ecb0738daf8f5dbe1fa069f08b0c"
         ),
         .target(
