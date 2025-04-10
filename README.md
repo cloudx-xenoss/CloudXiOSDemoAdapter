@@ -1,4 +1,4 @@
-# ☁️ CloudXiOSDemoAdapter  
+# CloudX Demo Adapter
 Demo adapter for CloudX Core iOS SDK
 
 ## Prerequisites
