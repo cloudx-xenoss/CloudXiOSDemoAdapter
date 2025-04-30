@@ -14,7 +14,7 @@ CloudX SDK demo adapter is available though [CocoaPods](https://guides.cocoapods
 
 Open your project's `Podfile` and add this line to your app's target
 ```ruby
-pod CloudXDemoAdapter
+pod 'CloudXDemoAdapter'
 ```
 
 Install the pod from command line using:
