@@ -1,0 +1,40 @@
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage (if ever used)
+Carthage/
+
+# XCFrameworks if they're generated, not committed
+*.xcframework
+!CloudXDemoAdapter.xcframework  # keep if it's a published binary
+
+# System/IDE files
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archives
+*.zip
+
+# JSON podspecs if you're switching to .podspec Ruby files
+*.podspec.json
+
