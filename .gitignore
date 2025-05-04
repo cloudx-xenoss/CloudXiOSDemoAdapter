@@ -35,6 +35,3 @@ Carthage/
 # Archives
 *.zip
 
-# JSON podspecs if you're switching to .podspec Ruby files
-*.podspec.json
-
