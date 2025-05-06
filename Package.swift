@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CloudXDemoAdapter",
-            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/download/1.0.5/CloudXDemoAdapter.xcframework.zip",
-            checksum: "fee7125f27d3b647187aa2295617896493e62cc076ae06f93a830b20c2d7400e"
+            url: "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter/releases/download/1.0.6/CloudXDemoAdapter.xcframework.zip",
+            checksum: "4507bfa8bc81b1a739c2e4eec9d8b9165ae7190827569112f72048f9f992cbd0"
         )
     ]
 )
